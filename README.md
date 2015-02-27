@@ -25,7 +25,7 @@ To use ghci to get a repl, type `cabal repl`.
 
 Take a look inside test/ for examples. To run the tests, execute `./run_tests`. Alternatively, you can do `cabal test` but this will be slower.
 
-You can also run the tests inside ghci - do `cabal repl hspec` and typing `:main`.
+You can also run the tests inside ghci - run `cabal repl hspec` and type `:main`.
 
 ## Running the app
 
