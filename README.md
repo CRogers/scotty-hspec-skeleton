@@ -32,6 +32,10 @@ To compile and run the app, do `cabal run`. If this is too slow you can use `run
 
 You can also do this through ghci, by running `cabal repl your-app-name-here` and typing `:main`.
 
+## Documentation
+
+Here is the documentation for [scotty](http://hackage.haskell.org/package/scotty), [hspec](http://hspec.github.io/index.html) and [hspec-wai](https://hackage.haskell.org/package/hspec-wai-0.6.3/docs/Test-Hspec-Wai.html).
+
 ## Upgrading libraries
 
 This uses `cabal freeze` to maintain a consistent set of libraries. To upgrade the libraries (if say this repo becomes out of date), simply delete `cabal.config`, `cabal install --only-dependencies --enable-tests` again  and run `cabal freeze`.
