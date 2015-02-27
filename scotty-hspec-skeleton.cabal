@@ -18,11 +18,12 @@ cabal-version:       >=1.10
 library
   -- other-modules:       
   -- other-extensions:    
-  exposed-modules:     Bar
+  exposed-modules:     Routes, Bar
   build-depends:       base == 4.*
                      , scotty
   hs-source-dirs:      src
   default-language:    Haskell2010
+  extensions:          OverloadedStrings
 
 executable your-app-name-here
   main-is:             Main.hs
@@ -31,6 +32,7 @@ executable your-app-name-here
                      , scotty
   hs-source-dirs:      app
   default-language:    Haskell2010
+  extensions:          OverloadedStrings
 
 test-suite hspec
   type:                exitcode-stdio-1.0

@@ -1,9 +1,8 @@
-{-# LANGUAGE OverloadedStrings #-}
-
 module Main where
 
 import Web.Scotty
 
+import Routes (routes)
+
 main :: IO ()
-main = scotty 3000 $ do
-    get "/" $ html "<h1>Hello world!</h1>"
+main = scotty 3000 routes
