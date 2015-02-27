@@ -8,7 +8,8 @@ Make sure you have GHC 7.8 and cabal.
 2. `cabal sandbox init` - Super important, if you don't do this first you may run into cabal problems.
 3. `cabal update`
 4. `cabal install --only-dependencies --enable-tests` - May takes some time at first.
-5. `cabal build`
+5. `cabal configure --enabled-tests`
+6. `cabal build && cabal test` - Check it all works
 
 ## Project Layout
 
