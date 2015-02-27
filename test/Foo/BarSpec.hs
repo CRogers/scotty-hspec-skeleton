@@ -2,7 +2,7 @@ module Foo.BarSpec where
 
 import Test.Hspec
 
-import Bar
+import Foo.Bar
 
 spec :: Spec
 spec = do

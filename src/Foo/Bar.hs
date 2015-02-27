@@ -1,4 +1,4 @@
-module Bar where
+module Foo.Bar where
 
 hopefullyTrue :: Bool
 hopefullyTrue = True
