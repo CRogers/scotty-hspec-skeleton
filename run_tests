@@ -1,0 +1,3 @@
+#!/bin/sh
+
+cabal exec -- runghc -itest -isrc test/Spec.hs
